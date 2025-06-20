@@ -464,4 +464,38 @@ footer {
     font-weight: bold;
 }
 
+
+/*This is the styling that I manually added*/
+.home-logo {
+    flex: 0 0 100%; /* take full width of parent flex container */
+    text-align: center; /* center the image inside this div */
+    margin: 20px 0;
+}
+
+.home-row {
+    display: flex; /* Make the container a flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+.home-col1 {
+    /*Allow this column to take up two-thirds of the space*/
+    flex: 2; /* This will take up 2/3 of the space */
+}
+
+.home-col2 {
+    /*Allow this column to take up one-third of the space*/
+    flex: 1; /* This will take up 1/3 of the space */
+    text-align: center;
+}
+
+/*styling and reducing the size of the images in the 2nd column*/
+.home-col2 img {
+    width: 100px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some space around the images */
+}
+
+
+
+
 /*  END SignIn page styling */
