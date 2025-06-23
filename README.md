@@ -37,7 +37,7 @@ Then I used this code to make sure the function was called when the page loads:
 
 I navigated through the project and saw that pages were already scaffolded within the Areas\Blog\Views folder
 
-#User Story 3 Updated: User would like the ability to create blog posts from within the BlogAuthorIndex
+## User Story 3 Updated: User would like the ability to create blog posts from within the BlogAuthorIndex
 
 1. Created the BlogPost Model & inlcuded the following properties:
 	
