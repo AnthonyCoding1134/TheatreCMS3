@@ -3,14 +3,14 @@
 
 ## User story 1:
 
-## STORY: User would like the homepage styled.
+### STORY: User would like the homepage styled.
 
 The first thing I did was inspect the html in the web browser to see which classes were applied to the elements.
 Then I checked to see if those classes were already created in bootstrap.css or site.css files.  They were not.
 So, I created those classes and applied different css declarations to achieve the desired styling effect.  
 
 ## User story 2:
-## STORY: User would like the number of developers counted
+### STORY: User would like the number of developers counted
 
 The next story I was tasked with was to count the number of developers on the SignIn page.  After researching,
 I devised a JavaScript function that counted the number of elements within a div and displayed the result.  Here is the function:
@@ -33,7 +33,7 @@ Then I used this code to make sure the function was called when the page loads:
 
 
 ## User Story 3: 
-## STORY: User would like to be able to store info for multiple blog writers/authors that work for the theater.
+### STORY: User would like to be able to store info for multiple blog writers/authors that work for the theater.
 
 I navigated through the project and saw that pages were already scaffolded within the Areas\Blog\Views folder
 
