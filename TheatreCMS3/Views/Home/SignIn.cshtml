@@ -5,18 +5,38 @@
 }
 
 <script>
-  $(document).ready(function() {
-    let persons = $("#PersonList").children("p").length;
-    $("#countDevs").text(persons);
-  });
+  //$(document).ready(function() {
+  //  let persons = $("#PersonList").children("p").length;
+  //  $("#countDevs").text(persons);
+    //});
+
+    function countDevs() {
+        var myDiv = document.getElementById('PersonList');
+        var paragraphs = myDiv.getElementsByTagName('p');
+        var count = paragraphs.length;
+
+        // Display count in the HTML
+        document.getElementById('NumPersonsValue').innerText = count;
+
+    }
+
+    // Call function on page load
+    window.onload = countDevs;
+
 </script>
 
 <div class="py-5 text-center">
-  @*Centered text and padded bottom*@
+    @*Centered text and padded bottom*@
 
 
-  <h1>Developers Of TheatreCMS&nbsp;<span id="NumPersons" class="badge badge-secondary">Total: <span id="countDevs">0</span></span></h1>
-  <h2>SignIn</h2>
+    <h1>Developers Of TheatreCMS &nbsp;<span id="NumPersons" class="badge badge-primary">Total: <span id="NumPersonsValue">0</span></span></h1>
+    
+
+
+
+
+
+    <h2>SignIn</h2>
 </div>
 
 
@@ -309,6 +329,7 @@
         <p>Zahra Ehteshami</p>
         <p>Noah Ketcham</p>
         <p>Sam Piazza</p>
+        <p>Anthony Lockery</p>
 
     </div>
   

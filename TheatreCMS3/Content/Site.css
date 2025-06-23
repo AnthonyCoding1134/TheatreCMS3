@@ -466,15 +466,17 @@ footer {
 
 
 /*This is the styling that I manually added*/
-.home-logo {
-    flex: 0 0 100%; /* take full width of parent flex container */
-    text-align: center; /* center the image inside this div */
-    margin: 20px 0;
-}
+
 
 .home-row {
     display: flex; /* Make the container a flex container */
     flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+.home-logo {
+    flex: 0 0 100%; /* take full width of parent flex container */
+    text-align: center; /* center the image inside this div */
+    margin: 20px 0;
 }
 
 .home-col1 {
@@ -495,7 +497,26 @@ footer {
     margin: 10px; /* Add some space around the images */
 }
 
+.home-btn {
+    display: block; /* Make the button a block element to take full width */
+    width: 100%; /* Make the button take full width of its parent */
+    padding: 50px; /* Add some padding for better appearance */
+    /*   background-color: var(--secondary-color); */ /* Use secondary color for background */
+    background-color: yellowgreen;
+    color: var(--dark-color); /* Use dark color for text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold; /* Make the text bold */
+}
 
+/*Styles Div containing Column1 Land Acknowledgement*/
+.home-title {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 35px;
+}
 
 
 /*  END SignIn page styling */

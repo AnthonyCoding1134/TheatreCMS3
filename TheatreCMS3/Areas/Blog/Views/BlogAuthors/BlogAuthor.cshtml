@@ -19,6 +19,10 @@
                 <h2>@Model.Name</h2>
                 <p>@Model.Bio</p>
                 <p>Joined Date: @Model.Joined.ToShortDateString()</p>
+                <p>
+                    @Html.ActionLink("Create Blog Post", "Create", "BlogPosts", new { AuthorId = Model.BlogAuthorId }, new { @class = "btn btn-sm btn-success" })
+                </p>
+
                 @if (Model.Left.HasValue)
                 {
                     <p>Left Date: @Model.Left.Value.ToShortDateString()</p>
